@@ -1,7 +1,8 @@
-#ifndef PANEL
-#define PANEL
+#ifndef PANEL_H
+#define PANEL_H
 
-#include <iosream>
+#include <iostream>
+#include "Game.hpp"
 
 
 class Panel
