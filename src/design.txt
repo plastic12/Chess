@@ -1,0 +1,24 @@
+stat machine
+
+chess panel
+dynamic
+15*15 int
+token
+static
+symbol array
+display
+game
+
+
+game static
+win rule
+
+function
+
+
+take turn input
+
+
+
+
+
