@@ -1,8 +1,11 @@
 #include <iostream>
+#include "Panel.hpp"
+#include "Five.hpp"
 
 using namespace std;
 
 int main()
 {
-    cout<<"plastic12 is a god"<<endl;
+    Five f;
+    f.start();
 }

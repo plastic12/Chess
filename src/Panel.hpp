@@ -2,18 +2,17 @@
 #define PANEL_H
 
 #include <iostream>
-#include "Game.hpp"
 
 
 class Panel
 {
 	private:
 	int data[15][15];
-	int token;
-	Game *game;
 	public:
-	Panel(Game *game);
-	~Panel();
+	Panel();
+	void display();
+	int get(int x,int y);
+	void set(int x,int y,int value);
 
 };
 

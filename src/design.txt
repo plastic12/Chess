@@ -1,5 +1,14 @@
 stat machine
 
+
+init
+
+while not win
+option
+display
+
+
+
 chess panel
 dynamic
 15*15 int

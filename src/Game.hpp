@@ -1,11 +1,16 @@
 #ifndef GAME_H
 #define GAME_H
 
+#include "Panel.hpp"
 
 
 class Game
 {
-    virtual int win(int data[][15])=0;
+    protected:
+        Panel* p;
+    public:
+        virtual int win()=0;
+        virtual void start()=0;
 };
 
 
