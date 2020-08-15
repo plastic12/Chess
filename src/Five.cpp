@@ -25,7 +25,7 @@ int Five::win()
     if(lastx==-1||lasty==-1)
         return 0;
     int output=0;
-    //check vertical
+    //check horizontal
     int temp=0;
     int counter=0;
     for(int i=0;i<15;i++)
@@ -40,7 +40,7 @@ int Five::win()
         if(counter==5)
             return temp;
     }
-    //check horizontal
+    //check vertical
     for(int i=0;i<15;i++)
     {
         if(temp==p->get(lastx,i)&&temp!=0)
